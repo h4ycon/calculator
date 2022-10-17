@@ -1,7 +1,10 @@
 
 
 body{
+    background-color: rgb(22, 21, 21);
 }
+
+#text{ padding: 5px;}
 
 #body{
     width: 250px;
@@ -52,6 +55,35 @@ body{
     font-size: 1.5em;
 }
 
+#btn-AC{
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+    flex:1;
+    background-color: rgb(227, 227, 227);
+    width:100px;
+    padding: 15px;
+    height:40px;
+    border:0px solid gray;
+    border-radius: 50px;
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+#btn-C{
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+    flex:1;
+    background-color: rgb(227, 227, 227);
+    width:100px;
+    padding: 15px;
+    height:40px;
+    border:0px solid gray;
+    border-radius: 50px;
+    margin: 5px;
+    font-size: 1.5em;
+}
 
 .btn-lrg{
     display: inline-flex;
