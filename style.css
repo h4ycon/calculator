@@ -1,14 +1,13 @@
-
-
 body{
-    background-color: rgb(22, 21, 21);
+    background-color: rgb(156, 147, 147);
 }
 
 #text{ padding: 5px;}
 
-#body{
-    width: 250px;
+#calculator-main{
+    width: 300px;
     height: 400px;
+    background-color: black;
 
     position: absolute;
     top: 20%;
@@ -21,16 +20,19 @@ body{
     flex-wrap: wrap;
 
     margin: 0 auto;
-    padding: 30px 20px 0 20px;
+    padding: 30px 20px 5px 20px;
 }
 
 #display-screen{
     display: inline-flex;
     align-items:center;
+
     width: 100%;
     height: 40px;
+    
     border: 1px solid black;
     border-radius: 40px;
+    
     background-color: rgb(205, 204, 204);
     
 }
@@ -40,62 +42,29 @@ body{
     margin-right: 20px;
 }
 
+#operate{
+    flex: 0 0 50%;
+}
+
 .btn{
+    flex:1 0 20%;
     display: inline-flex;
     align-items:center;
     justify-content: center;
-    flex:1;
-    background-color: rgb(227, 227, 227);
-    width:100px;
-    padding: 15px;
-    height:40px;
+
+    color: white;
+    background-color: rgb(155, 155, 155);
+    font-size: 1.5em;
+
+    height:15px;
+    width: 50px;
+    margin: 5px;
+    padding: 20px;
+    
     border:0px solid gray;
     border-radius: 50px;
-    margin: 5px;
-    font-size: 1.5em;
 }
 
-#btn-AC{
-    display: inline-flex;
-    align-items:center;
-    justify-content: center;
-    flex:1;
-    background-color: rgb(227, 227, 227);
-    width:100px;
-    padding: 15px;
-    height:40px;
-    border:0px solid gray;
-    border-radius: 50px;
-    margin: 5px;
-    font-size: 1.5em;
-}
-
-#btn-C{
-    display: inline-flex;
-    align-items:center;
-    justify-content: center;
-    flex:1;
-    background-color: rgb(227, 227, 227);
-    width:100px;
-    padding: 15px;
-    height:40px;
-    border:0px solid gray;
-    border-radius: 50px;
-    margin: 5px;
-    font-size: 1.5em;
-}
-
-.btn-lrg{
-    display: inline-flex;
-    align-items:center;
-    justify-content: center;
-    flex-shrink: 0;
-    background-color: rgb(227, 227, 227);
-    width:100px;
-    padding: 15px;
-    height:40px;
-    border:0px solid gray;
-    border-radius: 50px;
-    margin: 5px;
-    font-size: 1.5em;
+.btn-color{
+    background-color: rgb(253, 207, 0);
 }
